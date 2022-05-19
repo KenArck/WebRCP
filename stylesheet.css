@@ -1,0 +1,148 @@
+<style>
+	.red {
+	color:red;
+	}
+
+	BODY {
+		background://url("images/background1.jpg");
+		font-family: sans-serif;
+		font-size: 12pt;
+		font-weight: bold;
+		font-style: normal;
+		background-color: B0E0E6;
+		color: 000000;
+		margin: 0px;		
+		background-image: ;
+		background-repeat: repeat;
+		background-position : center;
+		background-attachment: fixed;	
+		}
+	
+
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;	
+    padding: 0;	
+    overflow: hidden;
+    background-color: #6495ED;
+	position: fixed;    
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 8px 10px;
+    text-decoration: none;	
+}
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #00FFFF;
+}
+	
+
+	A {
+		text-decoration: none;
+		color: 500000;		
+	}
+	
+	A:hover {
+		text-decoration: underline;
+		color: A00000;	
+	}
+
+	b {
+		font-weight:bold;
+	}
+	
+	img {
+		vertical-align: text-top;
+	} 
+
+	b.errormsg {
+		color: #BB0000;
+		
+	}
+	
+	.copyright {
+			position: absolute;
+			bottom: 0px;
+			z-index: -1;
+			font-weight: bold;
+			font-size: 12pt;
+			font-style: italic;
+	}
+	
+	.copyright td {
+		color: ECE9C6;
+	}
+	
+	table {
+		background-color: inherit;
+	}
+	
+	table.transp {
+		background-color: transparent;
+	}
+	
+	td.nav {
+		font-size: 9pt;		
+	}
+	td.nav a {
+		text-decoration: none;
+		color: 00FFFF;
+		font-weight: bold;
+		font-style: normal;
+	}
+	td.nav a:hover  {
+		color: A00000;
+	}
+	
+	td.titlebar {
+		background-color: darkblue;
+		color: white;
+	}
+	
+	.tablink  {
+		color: 00FFFF;
+		font-size: 10pt;
+		font-weight: bold;
+	}
+	.tablinkselected  {
+		color: 500000;
+		font-size: 10pt;
+		font-weight: bold;
+	}
+	
+	a.tablink:hover {
+		text-decoration: none;
+		color: CCC9A6;
+		font-size: 10pt;
+		font-weight: bold;
+	}
+
+	.primarycolor {
+		color :4169E1;
+	}
+	
+	.lightrow {
+                background-color: 66CDAA;
+        }
+
+        .darkrow {
+                background-color: ADD8E6;
+        }	
+	.dialog {
+		background-color: 4169E1;
+	}
+	
+</style>
+	

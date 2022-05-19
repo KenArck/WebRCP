@@ -1,0 +1,42 @@
+<HEAD>
+
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+</HEAD>
+
+<script  src="jquery.js"></script>
+
+<script>
+function myFunction() {	
+    $.get("clearflags.php");
+	$.get("control.php");	
+	window.close();		
+	return false;	
+}
+</script>
+
+
+<CENTER>
+
+<table align=\"center\" border=1 cellspacing=0 cellpadding=4 width=\"620\">
+	<tr><TD class=\"titlebar\"><B>Send To RC210</B></TD></tr>
+	<tr>
+		<td class=\"dialog\">		
+			<table class=\"dialog\" align=\"center\" border=0 cellspacing=0 cellpadding=4 width=\"100%\">	
+				<tr>
+					<td colspan=2>						
+							<CENTER>Uploading your complete configuration will cause the controller to cease all operations until it is done.
+							<P>Do you still want to upload your configuration?</P></CENTER>	
+							<CENTER><form action="controlserial.php">
+							<input type="submit" value="Yes">
+							</form>
+							</CENTER>
+							<CENTER>
+							<button type="button" onclick="myFunction()">Cancel</button>
+							</CENTER>
+					</td>
+				</tr>	
+			</table>			
+		</td>
+	</tr>
+</table>
+</center>

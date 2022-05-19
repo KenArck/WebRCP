@@ -1,0 +1,21 @@
+<HEAD>
+
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+</HEAD>
+
+<script  src="jquery.js"></script>
+<script>
+function myFunction() {	  	
+	$.get("runupload.php", function(data, status){	
+	alert("Firmware Successfully Loaded");
+	window.close();			
+	});	
+}
+
+</script>
+<body style="text-align:center" onload="myFunction()">
+<H3>Your firmware is being loaded and may take a minute to complete. Please standby and do not close this window......</H3>
+
+<img src = "images/ajax-loader.gif">
+</body>
+
